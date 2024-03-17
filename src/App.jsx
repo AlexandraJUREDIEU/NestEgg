@@ -1,7 +1,9 @@
+import Homepage from "./components/Homepage"
+
 function App() {
-   return (
-   <div>Hello</div>
-  )
+   return (<>
+   <Homepage/>
+  </>)
 }
 
 export default App
