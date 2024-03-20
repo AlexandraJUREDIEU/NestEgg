@@ -49,15 +49,32 @@ span{
     height: 3.125em;
     z-index:1;    
 }
+
 #landing,#concept,#about-us,#price{
     height: 100vh;
     /* scroll-snap-align: start; */
 }
 
 /* Boutons */
-.btn-primary{
-    
+
+#art-btn-concept{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
 }
+
+
+
+.btn-primary{
+    height: 2.5em;
+    border-radius: 15px;
+    padding: 0 1em;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
 
 
 /* Landing */
@@ -67,7 +84,7 @@ header{
     justify-content: space-between;
     padding:0.75em 1em 0.75em 0em;
     z-index: 1;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 #landing {
