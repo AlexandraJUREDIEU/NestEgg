@@ -154,7 +154,91 @@ ul>li{
     background-color:rgba(255, 255, 255, 0.5);
 }
 
+/* connection */
 
+#pop-up-auth header{
+    display: flex;
+    flex-direction: column;
+}
+
+#pop-up-auth header img{
+   margin: auto;
+}
+
+#pop-up-auth header p{
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+#pop-up-auth{
+    background-color: linear-gradient(180deg, rgba(92,39,116,1) 0%, rgba(57,96,203,1) 25%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0em;
+    backdrop-filter: blur(50px);
+    width:100vw;
+    height:100vh;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    gap: 1em;
+
+}
+
+#close-pop-up-connexion{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.input-form-auth{
+    background-color: rgba(255, 255, 255, 0.19);
+    border-radius: 6.25em;
+    height: 3.25em;
+}
+
+.form-connexion{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-connexion section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 60vw;
+}
+
+.text-small{
+    font-size: 0.75em;
+}
+
+.text-small span{
+    margin-left: 0.25em;
+}
+
+.input-radio-remember{
+    background-color: rgba(221, 185, 147, 1);
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.btn-connect-auth{
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+    width: 60vw;
+    justify-content: center;
+}
+
+.btn-sign-in{
+    text-decoration: underline;
+}
 
 /* Landing */
 header{

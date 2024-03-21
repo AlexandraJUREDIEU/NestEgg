@@ -37,26 +37,25 @@
             </header>
             <article id="pop-up-auth" class="pop-up-auth" style="display:none">
                 <header id="authentification">
-                    <img id="close-pop-up-inscription" class="close-pop-up-auth" src="img/icons-logout.png" alt="sortie de l'authentification">
                     <img src="img/logoSansTexte.png" alt="Nest Egg" height="120px">
                     <p>type de connexion</p>
                 </header>
                 <form action="" id="connexion" class="form-connexion">
                     <section>
-                        <input type="text" placeholder="E-mail" />
-                        <input type="password" placeholder="Mot de passe" />
+                        <input type="text" placeholder="E-mail" class="input-form-auth"/>
+                        <input type="password" placeholder="Mot de passe" class="input-form-auth" />
                         <p class="text-small">Mot de passe oublié ? Cliquez<span>ici</span></p>
                     </section>            
                     <section>
-                        <input type="radio" value="Se souvenir de moi"checked />
-                        <button>Me connecter</button>
-                        <p>Je n'ai pas de compte. <a class="btn-sign-in" href="#inscription">S'inscrire</a></p>
+                        <input type="radio" class="input-radio-remember" value="Se souvenir de moi" checked />
+                        <button class="btn-connect-auth">Me connecter</button>
+                        <p class="text-small">Je n'ai pas de compte. <a class="btn-sign-in" href="#inscription">S'inscrire</a></p>
                     </section>
                     <img id="close-pop-up-connexion" class="close-pop-up-auth" src="img/icons-logout.png" alt="sortie de l'authentification">
 
                 </form>
 
-                <form id="inscription"action="">
+                <form id="inscription" action="">
                     <section>
                         <input type="text" placeholder="Nom" />
                         <input type="text" placeholder="Prénom" />
