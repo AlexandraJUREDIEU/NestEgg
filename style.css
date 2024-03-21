@@ -40,6 +40,19 @@ span{
     font-family: "Balmy";
 }
 
+button{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.25em;
+    background-color: rgba(255,255,255,0.5);    
+    align-items: center;
+    border-radius: 6.25em;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    /* width: 70vw; */
+}
+
 /* menu déroulant*/
 
 .nav-primary{
@@ -73,11 +86,6 @@ ul>li{
     
 }
 
-.nav-img-max-above-button{
-    width: 150px;
-    height: 150px;
-    margin: 1em 0;
-}
 
 /* icones & images */
 .logo-nestegg-default{
@@ -89,19 +97,39 @@ ul>li{
     z-index:1;    
 }
 
+.nav-img-max-above-button{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-bottom: 12em;
+    margin-left: -1.25em;
+}
+
 .btn-connect{
+    width:50vw;
+    margin-top: 10em;
+    width: 220px;
+    /* A vérifier */
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding:0.25em;
     background-color: rgba(255,255,255,0.5);    
     align-items: center;
-    border-radius: 100px;
-    width:50vw;
+    border-radius: 6.25em;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
-.btn-connect>a{
+
+.btn-connect a{
+    text-align: center;
+    width: 100%
+}
+
+#art-btn-concept a{
     width: 100%;
     text-align: center;
+    font-size: 0.75em;
 }
 
 #landing,#concept,#about-us,#price{
@@ -121,12 +149,9 @@ ul>li{
 
 .btn-primary{
     height: 2.5em;
-    border-radius: 15px;
     padding: 0 1em;
     margin: auto;
     background-color:rgba(255, 255, 255, 0.5);
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 
 
