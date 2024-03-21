@@ -240,6 +240,36 @@ ul>li{
     text-decoration: underline;
 }
 
+/* inscription */
+
+#inscription{
+    background-color: linear-gradient(180deg, rgba(92,39,116,1) 0%, rgba(57,96,203,1) 25%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0em;
+    backdrop-filter: blur(50px);
+    width:100vw;
+    height:100vh;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    gap: 1em;
+}
+
+#inscription section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.input-sign-in{
+    background-color: rgba(255, 255, 255, 0.19);
+    border-radius: 6.25em;
+    height: 3.25em;
+}
+
 /* Landing */
 header{
     display: flex;

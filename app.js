@@ -108,7 +108,7 @@ signIn.addEventListener("click", showInscription);
 function showInscription() {
     popUpAuth.style.display = "flex";
     inscription.style.display = "flex";
-    authentification.style.display = "none"; 
+    authentification.style.display = "flex"; 
     closePopUpAuth.style.display = "flex";
 
     // Masquage de l'élément de connexion
