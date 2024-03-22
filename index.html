@@ -18,7 +18,7 @@
     <div class="scroller">
     <!--Landing -->
         <section id="landing" class="item-scroll">
-            <header>
+            <header class="main-header">
                 <img class="logo-nestegg-default" src="img/logoNestEgg.png" alt="Logo NestEgg">
                 <img class="ico-menu-hamburger" src="img/icons-menu-hamburger.png" alt="Icone du menu" height="40px" width="40px">
                 <!-- Navbar (Affichage selon taille d'écran) -->
@@ -33,6 +33,14 @@
                             <img class="ico-user" src="img/icons-user-round.png" alt="Avatar utilisateur" width="40px">             
                             <a href="#header-home">Connexion</a>       
                         </div>
+                    <div class="socials">
+                    <p>Suivez nous sur les réseaux : </p>
+                        <div class="socials-img">
+                        <img src="img/icons-instagram.png" alt="instagram">
+                        <img src="img/icons-linkedin.png" alt="linkedin">
+                        <img src="img/icons-facebook.png" alt="facebook">
+                        </div>
+                    </div>
                 </nav>
             </header>
             <article id="pop-up-auth" class="pop-up-auth" style="display:none">
@@ -44,10 +52,10 @@
                     <section>
                         <input type="text" placeholder="E-mail" class="input-form-auth"/>
                         <input type="password" placeholder="Mot de passe" class="input-form-auth" />
-                        <p class="text-small">Mot de passe oublié ? Cliquez<span>ici</span></p>
+                        <p class="text-small">Mot de passe oublié ? Cliquez<span> ici</span></p>
                     </section>            
                     <section>
-                        <input type="radio" class="input-radio-remember" value="Se souvenir de moi" checked />
+                        <input type="radio" class="input-radio-remember" value="Se souvenir de moi"  />
                         <button class="btn-connect-auth">Me connecter</button>
                         <p class="text-small">Je n'ai pas de compte. <a class="btn-sign-in" href="#inscription">S'inscrire</a></p>
                     </section>
@@ -56,7 +64,7 @@
                 </form>
 
                 <form id="inscription" action="">
-                    <section>
+                    <section class="form-sign-in">
                         <input type="text" placeholder="Nom" class="input-sign-in"/>
                         <input type="text" placeholder="Prénom" class="input-sign-in"/>
                         <input type="email" placeholder="E-mail" class="input-sign-in"/>
@@ -64,18 +72,18 @@
                     </section>
             
                     <section>
-                        <article>
+                        <article class="check-sign-in">
                             <input type="checkbox">
                             <p>Je souhaite recevoir une newletter des astuces et nouvelles fonctionnalitées proposé par “Nest Egg”
                             </p>
                         </article>
             
-                        <article>
+                        <article class="check-sign-in">
                             <input type="checkbox">
                             <p>J’autorise Nest Egg à me proposer des offres commerciales partenaires</p>
                         </article>
                         <button>M'inscrire</button>
-                        <p>J’ai déjà un compte.<a class="btn-connect" href="#connexion">Me connecter</a></p>
+                        <p>J’ai déjà un compte.<a class="btn-connect btn-already-acc" href="#connexion">Me connecter</a></p>
                     </section>
 
                 </form>

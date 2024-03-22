@@ -83,7 +83,11 @@ ul>li{
     list-style: none;
     font-size: 1.5em;
     margin: 0.5em;
-    
+}
+
+li:hover{
+    font-weight: 700;
+    border-bottom: 1px solid yellow;
 }
 
 
@@ -137,12 +141,31 @@ ul>li{
     /* scroll-snap-align: start; */
 }
 
+.socials{
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+}
+
+.socials-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5em;
+    gap: 0.5em;
+}
+
+.socials-img img{
+    height: 1.5em;
+    width: 1.5em;
+}
+
 /* Boutons */
 
 #art-btn-concept{
     display: flex;
     flex-direction: column;
     gap: 0.75em;
+    padding-bottom: 10%;
 }
 
 
@@ -159,6 +182,7 @@ ul>li{
 #pop-up-auth header{
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 #pop-up-auth header img{
@@ -184,6 +208,7 @@ ul>li{
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     gap: 1em;
+   
 
 }
 
@@ -258,10 +283,13 @@ ul>li{
     gap: 1em;
 }
 
-#inscription section{
+#inscription{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    top: 20%;
+    position: absolute;
+    top: 0;
 }
 
 .input-sign-in{
@@ -270,8 +298,35 @@ ul>li{
     height: 3.25em;
 }
 
+#authentification{
+    z-index: 2;
+}
+
+.form-sign-in{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.btn-already-acc{
+    margin-top: 2em;
+}
+
+#inscription p{
+    font-size: 0.6em;
+}
+
+.check-sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+}
+
+
+
 /* Landing */
-header{
+.main-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
