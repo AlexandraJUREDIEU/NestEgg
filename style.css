@@ -179,21 +179,6 @@ li:hover{
 
 /* connection */
 
-#pop-up-auth header{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-#pop-up-auth header img{
-   margin: auto;
-}
-
-#pop-up-auth header p{
-    font-size: 1.25em;
-    text-transform: uppercase;
-}
-
 #pop-up-auth{
     background-color: linear-gradient(180deg, rgba(92,39,116,1) 0%, rgba(57,96,203,1) 25%);
     display: none;
@@ -208,9 +193,25 @@ li:hover{
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     gap: 1em;
-   
 
 }
+
+#pop-up-auth header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    height: 40%;
+    justify-content: flex-end;
+}
+
+
+
+#pop-up-auth header p{
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
 
 #close-pop-up-connexion{
     width: 50px;
@@ -225,16 +226,16 @@ li:hover{
     height: 3.25em;
 }
 
-.form-connexion{
+#connexion{
     display: flex;
     flex-direction: column;
+    height: 60%;
 }
 
 .form-connexion section{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    width: 60vw;
 }
 
 .text-small{
@@ -269,33 +270,24 @@ li:hover{
 
 #inscription{
     background-color: linear-gradient(180deg, rgba(92,39,116,1) 0%, rgba(57,96,203,1) 25%);
-    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    top: 0em;
-    backdrop-filter: blur(50px);
     width:100vw;
-    height:100vh;
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     gap: 1em;
+    height: 60%;
 }
 
-#inscription{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    top: 20%;
-    position: absolute;
-    top: 0;
+#inscription p{
+    font-size: 0.6em;
 }
 
 .input-sign-in{
     background-color: rgba(255, 255, 255, 0.19);
     border-radius: 6.25em;
-    height: 3.25em;
+    height: 2em;
 }
 
 #authentification{
@@ -312,9 +304,7 @@ li:hover{
     margin-top: 2em;
 }
 
-#inscription p{
-    font-size: 0.6em;
-}
+
 
 .check-sign-in{
     display: flex;
