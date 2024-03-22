@@ -106,11 +106,11 @@ function hideConnexionInscription() {
 signIn.addEventListener("click", showInscription);
 
 function showInscription() {
-    popUpAuth.style.display = "flex";
+    // popUpAuth.style.display = "flex";
+    // authentification.style.display = "flex"; 
+    connexion.style.display = "none";
     inscription.style.display = "flex";
-    authentification.style.display = "flex"; 
     closePopUpAuth.style.display = "flex";
 
     // Masquage de l'élément de connexion
-    connexion.style.display = "none";
 }
